@@ -1,4 +1,3 @@
-
 class Cited extends React.Component {
   constructor(props) { //don't destructure in constructor
     super(props);
@@ -38,8 +37,17 @@ function App(){
     author: "Aditya Joshi",
     url: "https://adityaajoshi.medium.com/getting-started-with-puppeteer-headless-chrome-in-nodejs-4826595e3366"
   }
-
-  const citations = [citeOne, citeTwo, citeThree];
+  const citeFour = {
+    title: 'How to create a REST API with Express.js in Node.js',
+    author: 'Robin Wieruch',
+    url: 'https://www.robinwieruch.de/node-express-server-rest-api'
+  }
+  const citeFive = {
+    title: 'Setting up an ES6 Project using Babel and webpack',
+    author: 'Chris Perry',
+    url: 'https://www.sitepoint.com/es6-babel-webpack/'
+  }
+  const citations = [citeOne, citeTwo, citeThree, citeFour, citeFive];
   return(
     <div>
       <h1>Works Cited: </h1>
