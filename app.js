@@ -47,7 +47,27 @@ function App(){
     author: 'Chris Perry',
     url: 'https://www.sitepoint.com/es6-babel-webpack/'
   }
-  const citations = [citeOne, citeTwo, citeThree, citeFour, citeFive];
+  const citeSix = {
+    title: 'Automated Testing with Headless Chrome',
+    author: 'Eric Bidelman',
+    url: 'https://developers.google.com/web/updates/2017/06/headless-karma-mocha-chai'
+  }
+  const citeSeven = {
+    title: 'The power of Headless Chrome and browser automation',
+    author: 'Eric Bidelman',
+    url: 'https://www.youtube.com/watch?v=lhZOFUY1weo&t=4s&ab_channel=GoogleChromeDevelopers'
+  }
+  const citeEight = {
+    title: "The Beginner's Guide to Chrome Headless",
+    author: 'Marie Prkopets',
+    url: 'https://usefyi.com/chrome-headless/'
+  }
+  const citeNine = {
+    title: 'How to run a headless Chrome browser in Selenium WebDriver',
+    author: 'Anton Smirnov',
+    url: 'https://itnext.io/how-to-run-a-headless-chrome-browser-in-selenium-webdriver-c5521bc12bf0'
+  }
+  const citations = [citeOne, citeTwo, citeThree, citeFour, citeFive, citeSix, citeSeven, citeEight, citeNine];
   return(
     <div>
       <h1>Works Cited: </h1>
