@@ -33,7 +33,13 @@ function App(){
     author:'Dima Bekerman',
     url : `https://www.imperva.com/blog/headless-chrome-devops-love-it-so-do-hackers-heres-why/`
   }
-  const citations = [citeOne, citeTwo];
+  const citeThree = {
+    title: "Getting started with Puppeteer & Headless chrome in NodeJS",
+    author: "Aditya Joshi",
+    url: "https://adityaajoshi.medium.com/getting-started-with-puppeteer-headless-chrome-in-nodejs-4826595e3366"
+  }
+
+  const citations = [citeOne, citeTwo, citeThree];
   return(
     <div>
       <h1>Works Cited: </h1>
