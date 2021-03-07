@@ -67,7 +67,12 @@ function App(){
     author: 'Anton Smirnov',
     url: 'https://itnext.io/how-to-run-a-headless-chrome-browser-in-selenium-webdriver-c5521bc12bf0'
   }
-  const citations = [citeOne, citeTwo, citeThree, citeFour, citeFive, citeSix, citeSeven, citeEight, citeNine];
+  const citeTen = {
+    title: 'Learn End-to-end Testing with Puppeteer',
+    author: 'Akshay Kadam',
+    url: 'https://www.sitepoint.com/puppeteer-end-to-end-testing/'
+  }
+  const citations = [citeOne, citeTwo, citeThree, citeFour, citeFive, citeSix, citeSeven, citeEight, citeNine, citeTen];
   return(
     <div>
       <h1>Works Cited: </h1>
